@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProTonix | Case Studies</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <main>
+        <h2>Recent Case Studies</h2>
+        
+        <input type="text" id="filter-input" placeholder="Search by title or category..." class="filter-box">
+        <p id="no-results" style="display: none; font-weight: bold; color: red;">No results found.</p>
+
+        <div class="grid-container">
+            <div class="card project-card">
+                <h3 class="card-title">Hardware Energy Audit</h3>
+                <p class="post-meta card-category">Consulting</p>
+                <p class="card-desc">Conducted an efficiency tracking program, refining the baseline calculations by correcting the Desktop PC power draw strictly to 350W.</p>
+                <button class="cta-btn">View Details</button>
+                <br><br>
+                <img src = "images/audit.png" width = "270" height = "200" alt = "Energy Audit">
+            </div>
+            <div class="card project-card">
+                <h3 class="card-title">PetCare+ Platform Prototype</h3>
+                <p class="post-meta card-category">Frontend Testing</p>
+                <p class="card-desc">Engineered high-fidelity wireframes and executed a comprehensive heuristic evaluation for pet management.</p>
+                <button class="cta-btn">View Details</button>
+                <br><br>
+                <img src = "images/petcare+.png" width = "270" height = "170" alt = "PetCare+ logo">
+            </div>
+            <div class="card project-card">
+                <h3 class="card-title">Enterprise Network Segmentation</h3>
+                <p class="post-meta card-category">Networking</p>
+                <p class="card-desc">Deployed a customized subnet layout targeting optimized connectivity across two remote office buildings.</p>
+                <button class="cta-btn">View Details</button>
+                <br><br>
+                <img src = "images/network segmentation.png" width = "270" height = "200" alt = "Network Segmentation">
+            </div>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+</html>
