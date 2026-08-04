@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Persistent Theme Implementation",
+        "date": "2026-08-01",
+        "summary": "Building a robust dark/light mode toggle.",
+        "category": "Part 1",
+        "content": "To implement the theme switcher, I utilized JavaScript's localStorage API. When a user clicks the toggle button, it updates a data-theme attribute on the body tag and saves the selection to localStorage. This ensures the preference persists across page reloads."
+    },
+    {
+        "id": 2,
+        "title": "Dynamic JSON Data Fetching",
+        "date": "2026-08-02",
+        "summary": "Rendering blog posts natively from JSON.",
+        "category": "Part 3",
+        "content": "Using the Fetch API, I retrieved data from posts.json. I mapped the array of objects into the DOM using document.createElement. The main challenge was dynamically formatting the JavaScript Date object and sorting the array from newest to oldest before rendering."
+    },
+    {
+        "id": 3,
+        "title": "Client-Side Form Validation",
+        "date": "2026-08-03",
+        "summary": "Intercepting submission to enforce security.",
+        "category": "Part 4",
+        "content": "I intercepted the form submission event using e.preventDefault(). I wrote a RegEx pattern to validate the email, and checked if the textarea string length was >= 20 characters. I bound a focus/input event to instantly clear error messages when the user corrects their typo."
+    },
+    {
+        "id": 4,
+        "title": "Real-time DOM Filtering",
+        "date": "2026-08-04",
+        "summary": "Filtering components without page reloads.",
+        "category": "Part 5",
+        "content": "By attaching an 'input' event listener to a search box, I matched the user's string against the title and category DOM elements inside my cards. If no matches return, a tracking variable triggers a 'No results found' paragraph to display."
+    }
+]
