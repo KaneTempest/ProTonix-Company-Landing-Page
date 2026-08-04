@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProTonix | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        .fa-github {
+            background: #8816c9;
+            color: white;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <main>
+        <h2>Contact Us</h2>
+        <form id="contact-form" class="form-container">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Message (Minimum 20 characters)</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                <span class="error-msg"></span>
+            </div>
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+        <br><br>
+        <div class="social-links">
+            <h2>Our social media links</h2>
+            <a href="https://linkedin.com" class="fa fa-linkedin"></a>
+            <a href="https://github.com" class="fa fa-github"></a>
+            <a href="https://instagram.com" class="fa fa-instagram"></a>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/validate.js"></script>
+</body>
+</html>
